@@ -1,0 +1,23 @@
+{
+  "name": "your-whole-family-is-in-the-icu-web",
+  "version": "0.0.1",
+  "description": "A Website built for idiots",
+  "license": "GPL-3.0",
+  "type": "module",
+  "scripts": {
+    "build": "vuepress build docs",
+    "cl": "vuepress dev docs --clean-cache",
+    "dev": "vuepress dev docs",
+    "upd": "pnpm dlx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.15",
+    "@vuepress/theme-default": "^2.0.0-rc.11",
+    "vue": "^3.4.38",
+    "vuepress": "2.0.0-rc.15",
+    "vuepress-theme-plume": "1.0.0-rc.88"
+  },
+  "dependencies": {
+    "@vuepress-plume/plugin-search": "1.0.0-rc.88"
+  }
+}
