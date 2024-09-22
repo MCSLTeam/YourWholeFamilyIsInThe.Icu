@@ -7,6 +7,4 @@ draft: true
 externalLinkIcon: false
 ---
 
-:::info
-暂时没有可用的笑料，我们将马上添加，稍安勿躁。
-:::
+<LinkCard title="风林水起" href="/arts/flsq" description="传奇攻击同行第一人，超级嘴炮王，通过 Frp 和 VPS 服务圈钱。" />
