@@ -3,6 +3,6 @@ import RepoCard from 'vuepress-theme-plume/features/RepoCard.vue'
 
 export default defineClientConfig({
   enhance({ app }) {
-    // app.component('RepoCard', RepoCard)
+    app.component('RepoCard', RepoCard)
   },
 })
