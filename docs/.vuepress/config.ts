@@ -7,8 +7,8 @@ export default defineUserConfig({
     ['link', { rel: 'icon', type: 'image/png', href: 'https://images.mcsl.com.cn/laughing.png' }]
   ],
   lang: 'zh-CN',
-  title: "传奇乐子榜",
-  description: '记录遇到的大大小小乐子，享受美好生活 | MCSL 开发组强势驱动',
+  title: "传奇笑料榜",
+  description: '记录遇到的大大小小笑料，享受美好生活 | MCSL 开发组强势驱动',
   theme: plumeTheme({
     logo: 'https://images.mcsl.com.cn/laughing.png',
     hostname: "https://lz.mcsl.com.cn",
@@ -21,8 +21,8 @@ export default defineUserConfig({
         icon: 'heroicons:home',
       },
       {
-        text: '乐子目录',
-        link: '/contents',
+        text: '笑料目录',
+        link: '/arts/',
         icon: 'ic:round-list',
       },
       {
@@ -36,6 +36,25 @@ export default defineUserConfig({
         icon: 'mdi:github',
       },
     ],
+    plugins: {
+      // watermark: true,
+      watermark: {
+        // enabled: false,  // boolean 类型控制是否全局启用
+        enabled: page => true, // function 类型 过滤哪些页面启用水印
+        delay: 0, // 添加水印的延时。以毫秒为单位。
+
+        /**
+         * 是否全屏水印，默认为 `true`，
+         * 设置为 `false` 时，水印仅在 内容区域中显示。
+         */
+        fullPage: true,
+
+        watermarkOptions: {
+          content: '笑料榜单-MCSL开发组版权所有',
+          // ...
+        }
+      }
+    }
   }),
   bundler: viteBundler(),
 }) as UserConfig
