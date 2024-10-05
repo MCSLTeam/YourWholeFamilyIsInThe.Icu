@@ -4,13 +4,13 @@ import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: 'https://images.mcsl.com.cn/laughing.png' }]
+    ['link', { rel: 'icon', type: 'image/png', href: 'https://images.mcsl.com.cn/new/laughing.webp' }]
   ],
   lang: 'zh-CN',
   title: "传奇笑料榜",
   description: '记录遇到的大大小小笑料，享受美好生活 | MCSL 开发组强势驱动',
   theme: plumeTheme({
-    logo: 'https://images.mcsl.com.cn/laughing.png',
+    logo: 'https://images.mcsl.com.cn/new/laughing.webp',
     hostname: "https://lz.mcsl.com.cn",
     autoFrontmatter: false,
     footer: { message: "<a target='_blank' href='https://beian.miit.gov.cn/'>鲁ICP备2023001164号-2</a></br>本站由 木韩网络 提供 CDN 加速与防御支持。", "copyright": "© 2022-2024 <a href='https://mcsl.com.cn'>MCSL开发组</a> 保留所有权利。" },
