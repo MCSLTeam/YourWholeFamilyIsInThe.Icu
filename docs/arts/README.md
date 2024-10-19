@@ -9,3 +9,4 @@ externalLinkIcon: false
 
 <LinkCard title="风林水起" href="/arts/flsq" description="传奇攻击同行第一人，超级嘴炮王，通过 Frp 和 VPS 服务圈钱。" />
 <LinkCard title="wherewhere" href="/arts/wherewhere" description="开源项目红眼病患者，技术封锁大神。" />
+<LinkCard title="༽羅の時ོ༒" href="/arts/lds" description="资金管理大师，禁止所有开源项目赚钱。" />
