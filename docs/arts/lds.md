@@ -8,8 +8,9 @@ externalLinkIcon: false
 Dubi906w 回归 InkCanvasForClass 开发，由于没有开发精力便调侃自己是否要收费，此人给出禁止收费的高见。
 :::
 
-
 <RepoCard repo="InkCanvas/InkCanvasForClass" />
+
+最新开源地址：<https://gitlab.com/dubi906w-university/InkCanvasForClass>
 
 ## 起因
 
